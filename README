@@ -1,0 +1,15 @@
+Projet Listo Paye
+
+Pour utiliser l'application vous devez obligatoire rentrer un nom, un prenom, une date de début de congé ainsi qu'une date de fin de congés.
+Si vous ne remplissez pas tous les champs une alerte s'affiche pour vous preciser qu'il faut tout remplir.
+
+
+Si tous les champs sont remplis et que vos dates sont dans le même mois :
+ Un récapitulatif s'affiche avec le nom et prenom renseignés au dessus ainsi que les dates du début et de fin de vos congés.
+ Le nombre total de jours des congés est affiché.
+
+ Si tous les champs sont remplis et que vos dates ne sont pas dans le même mois:
+ Un récapitulatif s'affiche avec le nom et prenom renseignés au dessus, ainsi que le nombre de jours total de vos congés, les dates de début et de fin des congés
+ et le nombre de congés prit par mois.
+
+ Vous pouvez aussi supprimer les récapitulatifs en cliquant dessus, une alerte s'ouvrira et vous demandera si vous voulez supprimer le récapitulatif en question.

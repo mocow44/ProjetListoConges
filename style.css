@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+#containerAll{
+    text-align: center;
+    margin-top: 50px;
+}
+#containerNom{
+    margin-bottom: 10px;
+}
+#containerDate{
+    margin-top: 10px;
+}
+#containerDateDebut{
+    margin-bottom: 10px;
+}
+#containerBtn{
+    margin-top: 10px;
+}
+
+li{
+    margin-top: 100px;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Congés</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Vos congés</h1>
+</header>
+    <div id="containerAll">
+        <div id="containerInfos">
+            <div id="containerNom">
+                <label for="libelleConges">Votre nom :</label>
+                <input type="text" id="libelleConges">
+            </div>
+            <div id="containerPrenom">
+                <label for="libelleConge">Votre prénom :</label>
+                <input type="text" id="libelleConge">
+            </div>
+        </div>
+            <div id="containerDate">
+                <div id="containerDateDebut">
+                    <label for="dateDebut">Choisissez le début de vos congés</label>
+                    <input id="dateDebut" type="date" >
+                </div>
+                <div id="containerDateFin">
+                    <label for="dateFin">Choisissez la fin de vos congés</label>
+                    <input id="dateFin" type="date">
+                </div>
+            </div>
+        <div id="containerBtn">
+            <button onclick="ajouter()" >Valider</button>
+        </div>
+    </div>
+
+    <div id="divResultat">
+        <ol id="olListeConges">
+
+        </ol>
+    </div>
+</body>
+</html>
